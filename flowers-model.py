@@ -1,4 +1,4 @@
-import tensor flow as tf
+import tensor flow as tf 
 from tensorflow import keras 
 from tensorflow.keras.optimazers import Adam
 
