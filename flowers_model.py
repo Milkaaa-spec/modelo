@@ -1,16 +1,19 @@
-import tensorflow as tf 
-from tensorflow import keras 
-from tensorflow.keras.optimazers import Adam
+# TensorFlow and tf.keras
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras.optimizers import Adam
 
-import numpy as np 
-from os import listidir
-from os.path import join 
+# Helper libraries
+# import matplotlib.pyplot as plt
+import numpy as np
+from os import listdir
+from os.path import join
 import cv2
-import pandas 
-import os 
-import random 
-import pathlib 
- 
+import pandas
+import os
+import random
+import pathlib
+
 # Set the path of the input folder
 
 dataset = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
