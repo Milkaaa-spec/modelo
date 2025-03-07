@@ -10,7 +10,7 @@ import pandas
 import os 
 import random 
 import pathlib 
-
+ 
 # Set the path of the input folder
 
 dataset = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
