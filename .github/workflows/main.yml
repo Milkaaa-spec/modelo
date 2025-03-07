@@ -19,9 +19,9 @@ jobs:
     - name: install additional modules 
       run: pip install -r requirements.txt
     - name: execute model
-      run: python flowers-model.py
+      run: python flowers_model.py
     - name: show dir
-      run: ls -la flowers_model
+      run: ls -la flowers-model
 
     - name: docker login
       env:
